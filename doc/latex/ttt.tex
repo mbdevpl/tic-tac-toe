@@ -1,0 +1,80 @@
+% Documentation for Tic Tac Toe in C++, Mateusz Bysiek 2010
+
+\documentclass{article}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage[empty]{fullpage} %small margins
+\usepackage[pdftex]{graphicx} %pictures
+
+\begin{document}
+
+\title{Tic Tac Toe – documentation addon}
+\author{Mateusz Bysiek}
+\maketitle
+
+\section{Player's guide}
+
+Author assumes that user is familliar with rules of ordinary Tic Tac Toe game.
+
+\begin{enumerate}
+\item Enter the exact same hostname and port as in server instance.
+\item Enter some nickname and password. Check 'create new' box.
+\item Click join. When a 2nd player joins, the game will start.
+\item When a game finishes, you can play once more by selecting the proper option in the game's window menu.
+\end{enumerate}
+
+More info soon.
+
+\section{Admin's guide}
+
+More info soon.
+
+\section{Developer's guide}
+
+\subsection{List of xml messages types}
+
+\paragraph{systemmsg} sent by both clients and server
+\paragraph{chatmsg} sent by clients
+\paragraph{game} sent by server to all clients at the same time
+\paragraph{celldata} sent by a client that just made a move
+\paragraph{participant} sent by client when logging in to the server
+
+\subsection{System messages sent by clients to server}
+
+\paragraph{pong} response for ping
+\paragraph{permissionToCreate} signals that there was permission given to create account in case that username is free
+\paragraph{turnend} signals that player made the move
+\paragraph{onemoregame} signals that player wants to play one more game
+\paragraph{incPlayed} signals that player received result of the game (and it was draw or his defeat)
+\paragraph{incWin} signals that player received result of the game (and he won)
+
+\subsection{System messages sent by server to client}
+
+\paragraph{ping} 
+\paragraph{webid=123} sets webID of client to 123
+\paragraph{status=Abc} sets the status message of the client to Abc
+\paragraph{side=n} sets the side of the player to n (1 or 2)
+\paragraph{toomanyplayers} 3rd player tries to join the game
+\paragraph{nosuchaccount} there is no such account in the database - login failed
+\paragraph{alreadyindb} creation failed - the username is taken
+\paragraph{badpassword} login failed - wrong password
+\paragraph{accountcreated} creation successful - user was added to database
+\paragraph{loggedin} sent by server when 3rd player tries to join the game
+\paragraph{playable} board is now playable
+\paragraph{notplayable} board is not playable anymore
+\paragraph{turnstart} turn starts for this player
+\paragraph{turnend} turn ends for this player
+\paragraph{duelended} duel has ended
+\paragraph{youwon} this player has won
+\paragraph{youlost} this player has lost
+\paragraph{draw} this match has ended for this player with draw
+
+\subsection{System messages that may be sent both ways}
+
+\paragraph{disconnect} indicates that the other side has ended the communication, and disconnected (gentle way, because you can always cut your ethernet cable)
+
+\section{Known issues}
+
+I did not manage to establish a connection via Internet using this application. One machine, and LAN (including WLAN) connections were made, but no success with wide scale.
+
+\end{document}
