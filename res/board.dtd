@@ -1,0 +1,7 @@
+<!ELEMENT board (row+)>
+<!ELEMENT row (cell+)>
+<!ELEMENT cell (#PCDATA)>
+<!ATTLIST board
+	width CDATA #REQUIRED
+	height CDATA #REQUIRED
+>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<!DOCTYPE game SYSTEM "http://mbdev.pl/files/tictactoe/game.dtd">
+<game servername="server at 192.168.135.11">
+<board height="14" width="14" winlen="5">
+<row>
+<cell val="o" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="o" />
+</row>
+<row>
+<cell val=" " />
+<cell val="x" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="o" />
+<cell val=" " />
+</row>
+<row>
+<cell val=" " />
+<cell val=" " />
+<cell val="x" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="o" />
+<cell val=" " />
+<cell val=" " />
+</row>
+<row>
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="x" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="o" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+</row>
+<row>
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="x" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="o" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+</row>
+<row>
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="x" />
+<cell val=" " />
+<cell val=" " />
+<cell val="o" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+</row>
+<row>
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="x" />
+<cell val="o" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+</row>
+<row>
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="o" />
+<cell val="x" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+</row>
+<row>
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="o" />
+<cell val=" " />
+<cell val=" " />
+<cell val="x" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+</row>
+<row>
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="o" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="x" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+</row>
+<row>
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="o" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="x" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+</row>
+<row>
+<cell val=" " />
+<cell val=" " />
+<cell val="o" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="x" />
+<cell val=" " />
+<cell val=" " />
+</row>
+<row>
+<cell val=" " />
+<cell val="o" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="x" />
+<cell val=" " />
+</row>
+<row>
+<cell val="x" />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val=" " />
+<cell val="x" />
+</row>
+</board>
+<chatmsg nickname="test" senderid="123" sendertype="CLIENT">
+hello world</chatmsg>
+<participant kind="1">
+mati</participant>
+</game>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<!-- <?xml-stylesheet type="text/xsl" href="board.xsl"?> -->
+<!DOCTYPE board SYSTEM "http://mbdev.pl/files/tictactoe/board.dtd">
+<board width="3" height="3">
+	<row>
+		<cell>x</cell>
+		<cell></cell>
+		<cell>o</cell>
+	</row>
+	<row>
+		<cell></cell>
+		<cell>o</cell>
+		<cell></cell>
+	</row>
+	<row>
+		<cell></cell>
+		<cell></cell>
+		<cell>x</cell>
+	</row>
+</board>

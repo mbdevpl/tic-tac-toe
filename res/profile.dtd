@@ -1,0 +1,6 @@
+<!ENTITY % statistics SYSTEM "statistics.dtd"> %statistics;
+<!ELEMENT profile (statistics)>
+<!ATTLIST profile
+	login CDATA #REQUIRED
+	password CDATA #REQUIRED
+>

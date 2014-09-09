@@ -1,0 +1,7 @@
+<!ENTITY % board SYSTEM "board.dtd"> %board;
+<!ENTITY % participant SYSTEM "participant.dtd"> %participant;
+<!ENTITY % chatmsg SYSTEM "chatmsg.dtd"> %chatmsg;
+<!ELEMENT game (board,participant+,chatmsg+)>
+<!ATTLIST game
+	servername CDATA #REQUIRED
+>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="F:/Projects/Java/TicTacToe_clientLight.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/TicTacToe/Ttt_clientLight.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=TicTacToe/src&lt;mb.tictactoe{TttRunClient.java[TttRunClient" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe.data{SystemMsg.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.web{XmlReceiver.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.web{XmlPipe.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe{TttFrame.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.web{Xmlable.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe{TttChat.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.web{StreamSide.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.web{WebThreadRemoteClient.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe{TttLog.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe.data{EmptyOrCrossOrNought.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.web{WebThread.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe{TicTacToe.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.web{StreamPipe.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe{TttRunClient.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe{TttServerDataPane.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe.data{Game.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe.data{ChatMsg.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe{TttClientDataPane.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe{Ttt.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe.data{Board.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe{TttBoard.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe.data{PlayerSide.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.graphics"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe{ServerJoiningFrame.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe.data{CellData.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.web{StreamSender.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe.data{Participant.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.web{XmlTree.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.web{XmlSender.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.web{StreamReceiver.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe{ClientFrame.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe{TicTacToeConstants.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe.data{CellState.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.tictactoe.data{CrossOrNought.java"/>
+        <javaElement handleIdentifier="=TicTacToe/src&lt;mb.web{WebThreadClient.java"/>
+    </selectedElements>
+</jardesc>

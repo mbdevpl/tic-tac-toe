@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<!-- <?xml-stylesheet type="text/xsl" href="participant.xsl"?> -->
+<!DOCTYPE participant SYSTEM "http://mbdev.pl/files/tictactoe/participant.dtd">
+<participant></participant>

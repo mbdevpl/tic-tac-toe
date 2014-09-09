@@ -1,0 +1,4 @@
+<!ELEMENT participant (#PCDATA)>
+<!ATTLIST participant
+	kind (0 | 1 | 2) #REQUIRED
+>

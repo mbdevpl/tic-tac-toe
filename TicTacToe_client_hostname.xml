@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<!DOCTYPE serverdata SYSTEM "http://mbdev.pl/files/tictactoe/serverdata.dtd">
+<serverdata port="1234" hostname="192.168.135.11" />

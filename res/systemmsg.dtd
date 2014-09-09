@@ -1,0 +1,5 @@
+<!ELEMENT systemmsg (#PCDATA)>
+<!ATTLIST systemmsg
+	senderid CDATA #REQUIRED
+	sendertype (SERVER | CLIENT) #REQUIRED
+>

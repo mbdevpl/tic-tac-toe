@@ -1,0 +1,6 @@
+<!ELEMENT chatmsg (#PCDATA)>
+<!ATTLIST chatmsg
+	senderid CDATA #REQUIRED
+	sendertype (SERVER | CLIENT) #REQUIRED
+	nickname CDATA #REQUIRED
+>

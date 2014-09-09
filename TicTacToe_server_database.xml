@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<!DOCTYPE serverdata SYSTEM "http://mbdev.pl/files/tictactoe/serverdata.dtd">
+<serverdata>
+<user gameswon="0" password="asjgrh13252321tadgGWSGRauwvn23452345rtiausdEWMEQPzixgeyrg23019480gsf" gamesplayed="0">
+admin</user>
+<user gameswon="0" password="qwerty123" gamesplayed="0">
+mati1</user>
+<user gameswon="0" password="qwerty123" gamesplayed="0">
+mati</user>
+<user gameswon="0" password="qwerty123" gamesplayed="0">
+mati123</user>
+<user gameswon="0" password="qwerty123" gamesplayed="0">
+mati12</user>
+</serverdata>

@@ -1,0 +1,17 @@
+<!ENTITY % profile SYSTEM "profile.dtd"> %profile;
+<!ELEMENT server (connection, profile*)>
+<!ELEMENT statistics EMPTY>
+<!ELEMENT profile (statistics)>
+<!ATTLIST connection
+	hostname CDATA #REQUIRED
+	port CDATA #REQUIRED
+	timeout CDATA #REQUIRED
+>
+<!ATTLIST profile
+	login CDATA #REQUIRED
+	password CDATA #REQUIRED
+>
+<!ATTLIST statistics
+	gamesplayed CDATA #REQUIRED
+	gameswon CDATA #REQUIRED
+>

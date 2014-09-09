@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="F:/Projects/Java/TicTacToe.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/TicTacToe/Ttt.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=TicTacToe/src&lt;mb.tictactoe{TicTacToe.java[TicTacToe" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <file path="/TicTacToe/javadoc.xml"/>
+        <file path="/TicTacToe/.classpath"/>
+        <folder path="/TicTacToe/doc"/>
+        <javaElement handleIdentifier="=TicTacToe/src"/>
+        <folder path="/TicTacToe/.settings"/>
+        <file path="/TicTacToe/.project"/>
+    </selectedElements>
+</jardesc>

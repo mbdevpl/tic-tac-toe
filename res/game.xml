@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<!-- <?xml-stylesheet type="text/xsl" href="game.xsl"?> -->
+<!DOCTYPE game SYSTEM "http://mbdev.pl/files/tictactoe/game.dtd">
+<game servername="Testu Testu">
+	<board width="3" height="3">
+		<row>
+			<cell>x</cell>
+			<cell></cell>
+			<cell>o</cell>
+		</row>
+		<row>
+			<cell>o</cell>
+			<cell>o</cell>
+			<cell></cell>
+		</row>
+		<row>
+			<cell>x</cell>
+			<cell>x</cell>
+			<cell>x</cell>
+		</row>
+	</board>
+	<participant admin="true" player="false">TheGodOfTTT</participant>
+	<participant admin="false" player="true">Ziomex</participant>
+	<participant admin="false" player="true">Another</participant>
+	<participant admin="false" player="false">Ja tu tylko sprzatam</participant>
+	<participant admin="false" player="false">Amanda99</participant>
+	<participant admin="false" player="false">LOL!!!11oneone</participant>
+	<chatmsg senderid="0" sendertype="SERVER" nickname="system">Server created.</chatmsg>
+	<chatmsg senderid="1" sendertype="CLIENT" nickname="TheGodOfTTT">witam wszystkich ;) no, to zaczynamy gre!</chatmsg>
+	<chatmsg senderid="2" sendertype="CLIENT" nickname="Another">jedziemy, you shall be destroyed :P</chatmsg>
+	<chatmsg senderid="3" sendertype="CLIENT" nickname="Ziomex">sie zobaczy ;)</chatmsg>
+	<chatmsg senderid="0" sendertype="SERVER" nickname="system">Ziomex has won.</chatmsg>
+	<chatmsg senderid="3" sendertype="CLIENT" nickname="Ziomex">lol</chatmsg>
+	<chatmsg senderid="2" sendertype="CLIENT" nickname="Another">osz w morde...</chatmsg>
+</game>
