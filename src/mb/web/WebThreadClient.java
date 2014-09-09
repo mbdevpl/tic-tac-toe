@@ -28,6 +28,8 @@ public abstract class WebThreadClient extends WebThread {
 	/**
 	 * Constructs an instance using a ready socket. Used when initialising a server client.
 	 * Communication is done via send() and listen() methods.
+	 * @param prefix 
+	 * @param socket 
 	 * @throws IOException when connection could not be established before timeout
 	 */
 	public WebThreadClient(String prefix, Socket socket) throws IOException {

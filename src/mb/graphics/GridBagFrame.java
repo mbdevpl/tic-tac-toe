@@ -95,6 +95,7 @@ public abstract class GridBagFrame extends JFrame implements SwingConstants, Act
 	}
 	/**
 	 * Shows a dialog connected to this frame.
+	 * @param title 
 	 * @param message message to be displayed
 	 */
 	public void launchInfoDialog(String title, String message) {
@@ -103,6 +104,7 @@ public abstract class GridBagFrame extends JFrame implements SwingConstants, Act
 	}
 	/**
 	 * Shows a question connected to this frame.
+	 * @param title 
 	 * @param message message to be displayed
 	 */
 	public void launchQuestionDialog(String title, String message) {

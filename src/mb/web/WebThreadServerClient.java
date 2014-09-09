@@ -26,6 +26,7 @@ public class WebThreadServerClient extends WebThreadClient {
 	/**
 	 * Constructs a server-side client thread. 
 	 * @param server server that have constructed this thread
+	 * @param pipeSide 
 	 * @param clientSocket socket via which communication with remote client is done
 	 * @throws IOException 
 	 */
